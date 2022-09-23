@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Linea 4</name>
+	<gx:CascadingStyle kml:id="__managed_style_1DBCC4B3B224343713E5">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff58eeff</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00DFCD01FD24343713E5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DBCC4B3B224343713E5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21AF62E9E224343713E5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-3-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>images/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-2-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>images/icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-3-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>images/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>images/icon-1.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-2-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-2-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_26E4533B01243436A7B1">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff3c8e38</color>
+				<width>9.6</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1489957579243436A7B1">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff3c8e38</color>
+				<width>6.4</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_034409A634243436A7B1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1489957579243436A7B1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_26E4533B01243436A7B1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-ci-3-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-0288D1-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>images/icon-1.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_21AF62E9E224343713E5">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff58eeff</color>
+				<width>9.6</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="icon-ci-2-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>images/icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-1899-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="04D50D34AF2434348824">
+		<name>Capa sin nombre</name>
+		<Placemark>
+			<name>Comienzo</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-65.0399862,-42.766155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Llegada</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-65.03987890000001,-42.7660289,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="15A95F234A2434348824">
+		<name>Linea 4 Ida</name>
+		<open>1</open>
+		<Placemark id="0DD115595D24343513D4">
+			<name>Linea 4 ida</name>
+			<styleUrl>#__managed_style_034409A634243436A7B1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-65.03998,-42.76616,0 -65.04016,-42.76638,0 -65.04025,-42.76646,0 -65.04024,-42.76656,0 -65.04022999999999,-42.76658,0 -65.04022000000001,-42.76661,0 -65.0402,-42.76663,0 -65.04017,-42.76666,0 -65.04011,-42.76669,0 -65.03973000000001,-42.76627,0 -65.03952,-42.76601,0 -65.03941,-42.76588,0 -65.03878,-42.76516,0 -65.03816999999999,-42.76604,0 -65.03756,-42.767,0 -65.03700000000001,-42.76802,0 -65.03639,-42.76899,0 -65.03577,-42.76997,0 -65.03514,-42.77097,0 -65.03440999999999,-42.77213,0 -65.03368,-42.77328,0 -65.03292,-42.77442,0 -65.03247,-42.77514,0 -65.03185000000001,-42.77613,0 -65.03122999999999,-42.77711,0 -65.03063,-42.77807,0 -65.03128,-42.77829,0 -65.03194999999999,-42.77853,0 -65.03332,-42.779,0 -65.03417,-42.77927,0 -65.03417,-42.77928,0 -65.03461,-42.77942,0 -65.0347,-42.77945,0 -65.03599,-42.7799,0 -65.03668,-42.78014,0 -65.03737,-42.78038,0 -65.03806,-42.78061,0 -65.03881,-42.78088,0 -65.03958,-42.78114,0 -65.04034,-42.7814,0 -65.0411,-42.78166,0 -65.04185,-42.78192,0 -65.04262,-42.78218,0 -65.04340000000001,-42.78248,0 -65.04361,-42.78255,0 -65.04367000000001,-42.78257,0 -65.04373,-42.78258,0 -65.04379,-42.78259,0 -65.04384,-42.78259,0 -65.04388,-42.78259,0 -65.04391,-42.78259,0 -65.04396,-42.78259,0 -65.04398999999999,-42.78259,0 -65.04404,-42.7826,0 -65.04413,-42.78262,0 -65.04531,-42.78302,0 -65.04638,-42.78334,0 -65.04783,-42.78384,0 -65.04831,-42.78399,0 -65.04916,-42.78312,0 -65.04935,-42.78291,0 -65.04994000000001,-42.78225,0 -65.05022,-42.78235,0 -65.05081,-42.78255,0 -65.05163,-42.78284,0 -65.05231000000001,-42.78306,0 -65.05253,-42.78313,0 -65.05332,-42.7834,0 -65.0535,-42.78346,0 -65.05394,-42.78361,0 -65.05464000000001,-42.78385,0 -65.05558000000001,-42.78419,0 -65.05654,-42.7845,0 -65.05757,-42.78485,0 -65.05864,-42.78521,0 -65.05920999999999,-42.78541,0 -65.05985,-42.78563,0 -65.06045,-42.78583,0 -65.06104000000001,-42.78603,0 -65.06165,-42.78623,0 -65.06216999999999,-42.78641,0 -65.06227,-42.78645,0 -65.06288000000001,-42.78665,0 -65.06314999999999,-42.78674,0 -65.06377000000001,-42.78696,0 -65.06439,-42.78717,0 -65.065,-42.78737,0 -65.0656,-42.78757,0 -65.06619000000001,-42.78778,0 -65.06682000000001,-42.78799,0 -65.06697,-42.78804,0 -65.06742,-42.78818,0 -65.06805,-42.7884,0 -65.06874000000001,-42.78728,0 -65.06941999999999,-42.78748,0 -65.06999,-42.78768,0 -65.07016,-42.78773,0 -65.07091,-42.788,0 -65.07163,-42.78824,0 -65.07250000000001,-42.78681,0 -65.0729,-42.78695,0 -65.0736,-42.78726,0 -65.07422,-42.78745,0 -65.07485,-42.78767,0 -65.07547,-42.78781,0 -65.07608,-42.78805,0 -65.07519000000001,-42.78944,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="0EBCEF186224343513D6">
+			<name>Comienzo</name>
+			<styleUrl>#icon-ci-2-nodesc</styleUrl>
+			<Point>
+				<coordinates>-65.03997649999999,-42.7661593,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0753BAA64024343513D7">
+			<name>Marquinez 453, Puerto Madryn, Chubut, Argentina</name>
+			<styleUrl>#icon-ci-3-nodesc</styleUrl>
+			<Point>
+				<coordinates>-65.0751928,-42.7894418,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="2601ACD7A82434348824">
+		<name>Linea 4 Vuelta</name>
+		<open>1</open>
+		<Placemark id="0223E56DE8243436B2F4">
+			<name>Indicaciones de Marquinez 453, Puerto Madryn, Chubut, Argentina a Llegada</name>
+			<styleUrl>#__managed_style_00DFCD01FD24343713E5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-65.07517,-42.78943,0 -65.07458,-42.78923,0 -65.07398000000001,-42.78903,0 -65.07339,-42.78883,0 -65.07274,-42.78862,0 -65.07201000000001,-42.78837,0 -65.07163,-42.78824,0 -65.07091,-42.788,0 -65.07016,-42.78773,0 -65.06999,-42.78768,0 -65.06941999999999,-42.78748,0 -65.06874000000001,-42.78728,0 -65.06805,-42.7884,0 -65.06742,-42.78818,0 -65.06697,-42.78804,0 -65.06682000000001,-42.78799,0 -65.06619000000001,-42.78778,0 -65.0656,-42.78757,0 -65.065,-42.78737,0 -65.06439,-42.78717,0 -65.06377000000001,-42.78696,0 -65.06314999999999,-42.78674,0 -65.06288000000001,-42.78665,0 -65.06227,-42.78645,0 -65.06216999999999,-42.78641,0 -65.06165,-42.78623,0 -65.06104000000001,-42.78603,0 -65.06045,-42.78583,0 -65.05985,-42.78563,0 -65.05920999999999,-42.78541,0 -65.05864,-42.78521,0 -65.05757,-42.78485,0 -65.05654,-42.7845,0 -65.05558000000001,-42.78419,0 -65.05464000000001,-42.78385,0 -65.05394,-42.78361,0 -65.0535,-42.78346,0 -65.05332,-42.7834,0 -65.05253,-42.78313,0 -65.05231000000001,-42.78306,0 -65.05163,-42.78284,0 -65.05081,-42.78255,0 -65.05022,-42.78235,0 -65.04944,-42.78322,0 -65.04857,-42.78408,0 -65.04798,-42.7847,0 -65.0475,-42.78522,0 -65.04698,-42.78579,0 -65.04695,-42.78582,0 -65.04642,-42.78639,0 -65.04616,-42.7863,0 -65.04479000000001,-42.78582,0 -65.04376000000001,-42.78548,0 -65.0427,-42.78513,0 -65.04255999999999,-42.78514,0 -65.04239,-42.78508,0 -65.04132,-42.7847,0 -65.04107999999999,-42.78461,0 -65.04031999999999,-42.78437,0 -65.04021,-42.78434,0 -65.03958,-42.78411,0 -65.03952,-42.78409,0 -65.03881,-42.78384,0 -65.03811,-42.78361,0 -65.03804,-42.78358,0 -65.03743,-42.78337,0 -65.03728,-42.78332,0 -65.0365,-42.78306,0 -65.03581,-42.78283,0 -65.03513,-42.78259,0 -65.03444,-42.78236,0 -65.03435,-42.78234,0 -65.03427000000001,-42.78226,0 -65.0338,-42.78211,0 -65.03318,-42.7819,0 -65.03307,-42.78187,0 -65.03349,-42.78122,0 -65.03389,-42.78059,0 -65.03395,-42.7805,0 -65.03427000000001,-42.77999,0 -65.03456,-42.7795,0 -65.03412,-42.77936,0 -65.03411,-42.77935,0 -65.03327,-42.77907,0 -65.0326,-42.77885,0 -65.0326,-42.77884,0 -65.03191,-42.77861,0 -65.03127000000001,-42.77839,0 -65.03057,-42.77815,0 -65.02928,-42.77769,0 -65.02932,-42.77763,0 -65.02992999999999,-42.77666,0 -65.03055000000001,-42.77568,0 -65.03117,-42.7747,0 -65.03163000000001,-42.77397,0 -65.03236,-42.77282,0 -65.03307,-42.77168,0 -65.03362,-42.77081,0 -65.03381,-42.77051,0 -65.03444,-42.76951,0 -65.03506,-42.76853,0 -65.03567,-42.76757,0 -65.03626,-42.76657,0 -65.03685,-42.76558,0 -65.03707,-42.76526,0 -65.03728,-42.76494,0 -65.03739,-42.76477,0 -65.03749999999999,-42.76462,0 -65.03754000000001,-42.76455,0 -65.03798,-42.7647,0 -65.03816,-42.76476,0 -65.03845,-42.76488,0 -65.03870000000001,-42.76498,0 -65.03874,-42.76499,0 -65.03878,-42.76502,0 -65.03879999999999,-42.76504,0 -65.03883,-42.7651,0 -65.0395,-42.76584,0 -65.03973999999999,-42.76587,0 -65.03977999999999,-42.76592,0 -65.03986999999999,-42.76603,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="0A763F0144243436B2F7">
+			<name>Marquinez 453, Puerto Madryn, Chubut, Argentina</name>
+			<styleUrl>#icon-ci-2-nodesc</styleUrl>
+			<Point>
+				<coordinates>-65.0751697,-42.7894337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="09BABA1EF9243436B2F8">
+			<name>Llegada</name>
+			<styleUrl>#icon-ci-3-nodesc</styleUrl>
+			<Point>
+				<coordinates>-65.0398727,-42.7660316,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

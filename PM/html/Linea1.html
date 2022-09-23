@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Urbano</title>
+    <link rel="icon" type="imagen/icono" href="imagen-video/icono.jpeg">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v='ACA IRIA SU API KEY'=false"></script>
+    <script defer src="/html/js/estilo2.js"></script>
+    <script defer src="/html/js/codigo3.js"></script>
+</head>
+
+    <body>
+       <div class="Logo"><img class="logo" src="/html/imagen-video/Logo.jpeg"></div>
+        <nav class="main-nav">
+                <div id="toggle-menu" class="toggle-menu"><img src="/html/imagen-video/menu-barra.png"></img></div>
+                <div class="box">
+                  <ul class="main-menu">
+                  <li class="main-menu-item"><a href="index.html" class="main-menu-link">Inicio</a></li>
+                  <li class="main-menu-item"><a href="Colectivos.html" class="main-menu-link">Colectivos</a></li>
+                  <li class="main-menu-item"><a href="Remis.html" class="main-menu-link">Remis</a></li>
+                  <li class="main-menu-item"><a href="Taxis.html" class="main-menu-link">Taxis</a></li>
+                  <li class="main-menu-item"><a href="Recargas.html" class="main-menu-link">Recargas</a></li>
+                </ul></div>
+            </nav>
+          
+       <img class="linea1" src="/html/imagen-video/construtuor.png">
+       <div class="google-map"></div>
+       <script>
+        function initialize() {
+            var mapOptions = {
+              center: new google.maps.LatLng(-42.7732869,-65.04144546), //Set your latitude,longitude
+              zoom: 19,
+              mapTypeId: google.maps.MapTypeId.SATELLITE,
+              scrollwheel: false
+            }
+
+            var map = new google.maps.Map(document.getElementById(AIzaSyC6gnEJCAUDiq6OkcJzWdglNXqE8ndmFU0), mapOptions); //get the div by id
+
+            var ctaLayer = new google.maps.KmlLayer({
+              url: "C:\Users\maxim\OneDrive\Escritorio\PM\html\mapas\Linea1.kml" // (un ejemplo seria el siguiente)
+             // url: "/home/user/PM/carpetadeloskml"  //Es un ejemplo esta linea. Para conseguir la Url donde tiene los kml. Dentro de visual studio le hacen click derecho al kml y seleccionan la opcion "copiar ruta del archivo" o "Copy path"
+
+            });
+
+            // attach the layer to the map
+            ctaLayer.setMap(map);
+        }
+
+        // load the map
+        google.maps.event.addDomListener(window, -65.04144546, initialize);
+    </script>
+    </body>
+
+</html>

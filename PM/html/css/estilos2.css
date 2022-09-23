@@ -1,0 +1,283 @@
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #4e4f509f;
+}
+
+/*--------------------------- Encabezado ---------------------------*/
+.titulo{
+    margin: 10px;
+    padding: 20px;
+}
+
+.Mapa{
+    display: flex;
+    position: absolute;
+    left: 650px;
+    bottom: 30px;
+    width: 600px;
+    height: 300px;
+}
+
+.Logo {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo img{
+    height: 16vh;
+    border-radius: 20px;
+    box-shadow: 7px 5px 5px rgba(10, 10, 10, 0.35);
+}
+
+/*--------------------------- Menu ---------------------------*/
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li a:hover{
+    background: #367c2f;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px){
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        background: #2c3e50;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 205px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover{
+        background: none;
+        color: rgb(211, 146, 241);
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+  
+/*--------------------------- información ---------------------------*/
+.palabras{
+    height: 8vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3.7vw;
+    margin-right: 5.2vw;
+}
+
+
+.card{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_perfil{
+    width: 220px;
+    padding: 20px;
+    background: #556666c0;
+    box-shadow: 3px 3px 5px black;
+}
+
+.card_nombre img{
+    width: 150px;
+    border-radius: 70px;
+    box-shadow: 2px 2px 3px rgb(221, 221, 221);
+}
+
+.card_nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+hr{
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+.card_butoon1{
+    text-align: center;
+}
+
+.enlace1{
+    background: rgb(118, 118, 216);
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+/*--------------------------- información de Recargas ---------------------------*/
+
+.titulo2{
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lista{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    bottom: 50px;
+
+}
+
+/*-------------------------------------- Footer ----------------------------------------*/
+
+.container-footer{
+   width: 100%;
+   background: #101010;
+}
+
+.footer{
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.informacion a{
+    color: #C7C7C7;
+    text-decoration: none;
+}
+/*--------------------------------------*/
+.card1{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_perfil1{
+    width: 220px;
+    padding: 20px;
+    background: #556666c0;       
+    box-shadow: 2px 3px 8px black;
+}
+
+.imagen{
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(221, 221, 221);
+}
+
+.card_nombre1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+hr{
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+.card_butoon1{
+    text-align: center;
+}
+
+.enlace1{
+    background: linear-gradient(115deg, #80cc93, #fad648, #a767e5, #12bcfe, #6cd897);
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.enlace1:hover{
+    animation: animate 0.4s linear infinite;
+}
+@keyframes animate {
+    100%{
+        filter: hue-rotate(-360deg);
+    }
+}
